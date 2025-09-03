@@ -27,7 +27,7 @@ A weighted ensemble of EfficientNetB0, DenseNet121, and MobileNetV2 achieved the
 ---
 
 ## Confusion Matrix
-![Confusion Matrix](results/confusion_matrix.png)
+![Confusion Matrix](confusion_matrix.png)
 
 ---
 
