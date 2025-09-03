@@ -6,20 +6,6 @@ A weighted ensemble of EfficientNetB0, DenseNet121, and MobileNetV2 achieved the
 
 ---
 
-## Hardware & Setup
-- **CPU:** Intel i5-10400 @ 2.9 GHz  
-- **GPU:** NVIDIA GeForce RTX 2050 (4GB)  
-- **RAM:** 12GB  
-- **Frameworks:** Python 3.8, TensorFlow 2.8, Keras, OpenCV 4.5, Albumentations  
-
----
-
-## Dataset
-- Source: Kaggle (8 blood groups: A⁺, A⁻, B⁺, B⁻, AB⁺, AB⁻, O⁺, O⁻)  
-- Preprocessing: Noise reduction, sharpening, histogram equalization, resizing to 224×224.  
-- Splitting: Stratified – 300 images per class for validation, 300 for test, rest for training.  
-
----
 
 ## Individual CNN Model Performance
 
